@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+{% extends 'djaz/main.html' %}
+{% block content %}
+<div class="header-bar">
+    <a href="{% url 'task_list' %}">&#8592; Back</a>
+</div>
+
+<div class="card_body">
+    <form method="POST" action=" ">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input class="button" type="submit" value="Submit">
+    </form>
+</div>
+{% endblock content %}
+</body>
+</html>

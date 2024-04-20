@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create a Task</title>
+</head>
+<body>
+<h3>Task Create</h3>
+<a href="{% url 'task_list' %}">Back</a>
+<form method="POST" action=" ">
+  {% csrf_token %}
+  {{ from.as_p }}
+  <input type="submit" value="Create">
+</form>
+</body>
+</html>
