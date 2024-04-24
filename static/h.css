@@ -1,0 +1,136 @@
+body {
+    background-color: #CEECF6;
+    font-family: 'Hind', sans-serif;;
+    padding-top: 50px;
+}
+
+a, p{
+    color: #4b5156;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #006A8E;
+    font-family: 'Hind', sans-serif;;
+}
+
+.button {
+    background-color: #BE81F8;
+    border: 2px solid #BE81F8;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    font-family: 'Hind', sans-serif;;
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.container {
+    background-color: #E1A9F2;
+    margin: auto;
+    max-width: 750px;
+    box-shadow: 2px 2px 13px -4px #000000;
+}
+
+.delete-link {
+    color: #BE81F8;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.header-bar {
+    background: #BE81F8;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-bar a {
+    color: #000000;
+    
+    font-family: 'Hind', sans-serif;;
+    text-decoration: none;
+}
+
+.header-bar h3 {
+    margin: 0;
+}
+
+.incomplete-tasks {
+    margin: 0;
+}
+
+.search-form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.task-complete-icon {
+    background-color: green;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.task-incomplete-icon {
+    background-color: #DADADA;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.task-title {
+    display: flex;
+}
+
+.task-title a {
+    color: #4b5156;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.task-wrapper {
+    align-items: center;
+    background-color: #FFFFFF;
+    border-top: 1px solid #E2E2E2;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#add-link {
+    color: #BE81F8;
+    font-size: 42px;
+    text-decoration: none;
+    text-shadow: 1px 1px #9c40f2;
+}
+
+#search-add-wrapper {
+    align-items: center;
+    display: flex;justify-content: space-between;
+    padding: 10px;
+}
+
+input[type=text]
+input[type=password]
+
+label {
+    padding-top: 10px !important;
+    display: block;
+}
+
+textarea {
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+}
+
